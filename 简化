@@ -1,0 +1,3 @@
+简化前:I = (e,t)=>Object(a["d"])("https://dict.youdao.com/webtranslate", Object(n["a"])(Object(n["a"])({}, e), E(t)),
+简化后:a.d(url,n.a(n.a({},e),E(t)))
+再次简化a.d(url,n.a(e,E(t)))
